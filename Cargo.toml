@@ -1,6 +1,6 @@
 [package]
 name = "cubix"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 license = "MIT"
 description = "Standardized building block components born for Rust craft."
@@ -15,6 +15,7 @@ authors = ["Andeya Lee <andeyalee@outlook.com>"]
 
 [dependencies]
 api-response = "0.6"
+convert_traits = "1.0"
 jwt-claims = "1.0"
 
 [features]

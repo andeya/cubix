@@ -17,5 +17,13 @@ cargo add cubix
 Or add the following line to your Cargo.toml:
 
 ```toml
-cubix = "0.2"
+cubix = "0.3"
 ```
+
+## Features
+
+|       mod        |                                                     description                                                     |   source crate   |
+| :--------------: | :-----------------------------------------------------------------------------------------------------------------: | :--------------: |
+|  `api_response`  |                   A consistent structure for API responses, including success and error handling.                   |  `api-response`  |
+| `convert_traits` |  Define your own conversion traits to solve the problem of converting two external types without using new types.   | `convert_traits` |
+|   `jwt-claims`   | Structured version of the JWT Claims Set, as referenced at https://datatracker.ietf.org/doc/html/rfc7519#section-4. |   `jwt_claims`   |
