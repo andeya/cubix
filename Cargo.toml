@@ -19,6 +19,6 @@ convert_traits = "1.1"
 jwt-claims = "1.0"
 
 [features]
-default = ["try", "salvo"]
+# default = ["try", "salvo"]
 salvo = ["api-response/salvo", "jwt-claims/salvo"]
 try = ["api-response/try"]
