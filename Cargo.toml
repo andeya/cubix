@@ -18,10 +18,7 @@ api-response = "0.7"
 convert_traits = "1.1"
 getset2 = "0.2"
 jwt-claims = "1.0"
-num_enum = "0.7"
-strum = { version = "0.26", features = ["derive"] }
 
 [features]
 salvo = ["api-response/salvo", "jwt-claims/salvo"]
 try = ["api-response/try"]
-num_enum-complex-expressions = ["num_enum/complex-expressions"]
