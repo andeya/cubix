@@ -28,8 +28,7 @@ cubix = "0.6"
 | `convert_traits` |  Define your own conversion traits to solve the problem of converting two external types without using new types.   |      [`convert_traits`](https://crates.io/crates/)      |
 |    `getset2`     |                   A procedural macro for generating the most basic getters and setters on fields.                   |      [`getset2`](https://crates.io/crates/getset2)      |
 |   `jwt-claims`   | Structured version of the JWT Claims Set, as referenced at https://datatracker.ietf.org/doc/html/rfc7519#section-4. |   [`jwt_claims`](https://crates.io/crates/jwt_claims)   |
-|    `num_enum`    |   Procedural macros to make inter-operation between primitives and enums easier. This crate is no_std compatible.   |     [`num_enum`](https://crates.io/crates/num_enum)     |
-|     `strum`      |               Strum is a set of macros and traits for working with enums and strings easier in Rust.                |        [`strum`](https://crates.io/crates/strum)        |
+
 
 ## Extern-Crates
 
