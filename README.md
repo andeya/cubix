@@ -14,19 +14,13 @@ Run the following Cargo command in your project directory:
 cargo add cubix
 ```
 
-Or add the following line to your Cargo.toml:
-
-```toml
-cubix = "0.6"
-```
-
 ## Features
 
 |       mod        |                                                     description                                                     |                      source crate                       |
 | :--------------: | :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------: |
 |  `api_response`  |                   A consistent structure for API responses, including success and error handling.                   | [`api-response`](https://crates.io/crates/api-response) |
 | `convert_traits` |  Define your own conversion traits to solve the problem of converting two external types without using new types.   |      [`convert_traits`](https://crates.io/crates/)      |
-|    `getset2`     |                   A procedural macro for generating the most basic getters and setters on fields.                   |      [`getset2`](https://crates.io/crates/getset2)      |
+|    `getset2`     |                 A derive macro for generating the most basic getters and setters on struct fields.                  |      [`getset2`](https://crates.io/crates/getset2)      |
 |   `jwt-claims`   | Structured version of the JWT Claims Set, as referenced at https://datatracker.ietf.org/doc/html/rfc7519#section-4. |   [`jwt_claims`](https://crates.io/crates/jwt_claims)   |
 
 

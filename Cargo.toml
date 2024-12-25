@@ -1,6 +1,6 @@
 [package]
 name = "cubix"
-version = "0.8.0"
+version = "0.8.1"
 edition = "2021"
 license = "MIT"
 description = "Standardized building block components born for Rust craft."
