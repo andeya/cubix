@@ -7,7 +7,6 @@ description = "Standardized building block components born for Rust craft."
 repository = "https://github.com/andeya/cubix"
 documentation = "https://docs.rs/cubix"
 readme = "README.md"
-homepage = "https://casdoor.org"
 keywords = ["api", "http", "rpc", "jwt"]
 authors = ["Andeya Lee <andeyalee@outlook.com>"]
 
