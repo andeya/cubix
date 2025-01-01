@@ -1,6 +1,6 @@
 [package]
 name = "cubix"
-version = "0.8.8"
+version = "0.8.9"
 edition = "2021"
 license = "MIT"
 description = "Standardized building block components born for Rust craft."
@@ -13,7 +13,7 @@ authors = ["Andeya Lee <andeyalee@outlook.com>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-api-response = ">=0.15.3"
+api-response = ">=0.15.4"
 convert_traits = ">=1.1"
 getset2 = ">=0.4.0"
 jwt-claims = ">=1.0.2"
